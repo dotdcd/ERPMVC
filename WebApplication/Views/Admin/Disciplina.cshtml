@@ -1,0 +1,84 @@
+﻿@model App.Model.DisciplinasModel
+
+@{
+    ViewBag.Title = "Disciplina";
+    ViewBag.SubTitle = "";
+}
+
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/select2/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="box box-primary">
+
+            @using (Html.BeginForm("Disciplina", "Admin", FormMethod.Post, new { role = "form", enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+                <div class="box-header with-border" style="margin-top:10px;">
+
+                    <div class="col-md-10">
+                        <div class="form-group has-feedback">
+                            <label class="text-left">Id Disciplina:</label>
+                            @Html.TextBoxFor(m => m.familia_id, new { @class = "form-control", @id = "familia_id", @Readonly = "true", @name = "familia_id", @style = "width:400px;" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="form-group has-feedback">
+                            <label class="text-left">Nombre:</label>
+                            @Html.TextBoxFor(m => m.familia_descripcion, new { @class = "form-control", @id = "familia_descripcion", @name = "familia_descripcion", @style = "width:400px;" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="form-group has-feedback">
+                            <label class="text-left">Clave:</label>
+                            @Html.TextBoxFor(m => m.familia_clave, new { @class = "form-control", @id = "familia_clave", @name = "familia_clave", @style = "width:400px;" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="form-group has-feedback">
+                            <label>Activo:</label>
+                            @Html.CheckBoxFor(m => m.ActivoChk, new { @checked = "checked", @id = "activo" })
+                        </div>
+                    </div>
+
+
+                    @if (Model != null && Model.familia_id != "0")
+                    {
+
+                    <div class="col-md-10">
+                        <div class="form-group has-feedback">
+                            <label class="text-left">Fecha Alta</label>
+                            @Html.TextBoxFor(m => m.familia_fecha_alta, new { @class = "form-control", @id = "familia_fecha_baja", @Readonly = "true", @style = "width:400px;" })
+                        </div>
+                    </div>
+                    }
+
+
+                </div>
+
+                <div class="box-footer" style="text-align:right !important;">
+                    <button type="submit" id="btnSubmit" class="btn btn-primary right">Grabar</button>
+                </div>
+                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center;height:5px;">
+
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/AdminLTE/plugins/jquery-validate/js")
+    @Scripts.Render("~/AdminLTE/plugins/select2/js")
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/Scripts/Admin/Disciplina")
+}

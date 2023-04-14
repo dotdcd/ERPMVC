@@ -1,0 +1,63 @@
+﻿@using WebApplication.Extensions
+@using Vereyon.Web
+
+
+@Styles.Render("~/AdminLTE/plugins/datatables/css")
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/daterangepicker/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <a class="btn btn-primary" href="~/Contabilidad/Cuenta?Id=0">
+                Agregar Cuenta
+            </a>
+        </div>
+    </div>
+</div>
+<br />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title"> <strong>Cuentas</strong></h3>
+                </div>
+                <div class="box-body">
+                    <table id="dataTbl" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Numero de cuenta</th>
+                                <th>Banco</th>
+                                <th>CLABE</th>
+                                <th>Comentarios</th>
+                                <th>Cuenta Contable</th>
+                                <th>Saldo Inicial</th>
+                                <th>Límite de crédito</th>
+                                <th>Moneda</th>
+                                <th>Empresa Pagadora</th>
+                                <th>Tipo de Cuenta</th>
+                                <th>Estatus</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    var urlMarca = "/Admin/Cuenta";
+    var urlGetMarcas = "/Admin/GetCuentas";
+</script>
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/datatables/js")
+    @Scripts.Render("~/Scripts/Admin/Cuentas")
+}

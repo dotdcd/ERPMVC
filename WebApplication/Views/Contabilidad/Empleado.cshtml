@@ -1,0 +1,277 @@
+﻿@model App.Model.EmpleadosModel
+@{ ViewBag.Title = "Empleados";
+                ViewBag.SubTitle = "";
+}
+
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/select2/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="box box-primary">
+            
+            @using (Html.BeginForm("Empleado", "Contabilidad", FormMethod.Post, new { role = "form", enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+                <div class="box-header with-border" style="margin-top:10px;">
+                    <div class="col-md-4">
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Id Empleado:</label>
+                                @Html.TextBoxFor(m => m.empleado_id, new { @class = "form-control", @id = "empleado_id", @Readonly = "true", @name = "empleado_id", placeholder = "Introduce el Id de empleado" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Nombre(s):</label>
+                                @Html.TextBoxFor(m => m.empleado_nombre, new { @class = "form-control", @id = "empleado_nombre", @name = "empleado_nombre", placeholder = "Introduce el nombre del empleado" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Apellido Paterno:</label>
+                                @Html.TextBoxFor(m => m.empleado_paterno, new { @class = "form-control", @id = "empleado_paterno", @name = "empleado_paterno", placeholder = "Introduce el apellido paterno" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Apellido Materno:</label>
+                                @Html.TextBoxFor(m => m.empleado_materno, new { @class = "form-control", @id = "empleado_materno", @name = "empleado_materno", placeholder = "Introduce el apellido materno" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label> Tipo de Empleado :</label><br />
+                                <select class="form-control actividadSelect" id="actividad"></select>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Telefono :</label>
+                                @Html.TextBoxFor(m => m.empleado_telefono, new { @class = "form-control", @id = "empleado_telefono", @name = "empleado_telefono", placeholder = "Introduce el telefono" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Numero de IMSS :</label>
+                                @Html.TextBoxFor(m => m.empleado_imss, new { @class = "form-control", @id = "empleado_imss", @name = "empleado_imss", placeholder = "Introduce el numero de IMSS" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Direccion :</label>
+                                @Html.TextBoxFor(m => m.empleado_direccion, new { @class = "form-control", @id = "empleado_direccion", @name = "empleado_direccion", placeholder = "Introduce la direccion" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Sueldo :</label>
+                                @Html.TextBoxFor(m => m.empleado_sueldo, new { @class = "form-control", @id = "	empleado_sueldo", @name = "	empleado_sueldo", placeholder = "Introduce el sueldo" })
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Sueldo IMSS :</label>
+                                @Html.TextBoxFor(m => m.empleado_sueldo_imss, new { @class = "form-control", @id = "empleado_sueldo_imss", @name = "empleado_sueldo_imss", placeholder = "Introduce el sueldo reportado al IMSS" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Cuenta deposito IMSS :</label>
+                                @Html.TextBoxFor(m => m.empleado_cuenta_deposito, new { @class = "form-control", @id = "empleado_cuenta_deposito", @name = "empleado_cuenta_deposito", placeholder = "Introduce la cuenta de deposito IMSS" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Cuenta deposito IMSS :</label>
+                                @Html.TextBoxFor(m => m.empleado_cuenta_deposito, new { @class = "form-control", @id = "empleado_cuenta_deposito", @name = "empleado_cuenta_deposito", placeholder = "Introduce la cuenta de deposito del IMSS" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Cotizacion diaria IMSS :</label>
+                                @Html.TextBoxFor(m => m.empleado_diario, new { @class = "form-control", @id = "empleado_diario", @name = "empleado_diario", placeholder = "Introduce la cotizacion diaria" })
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left"> RFC : </label>
+                                @Html.TextBoxFor(m => m.empleado_rfc, new { @class = "form-control", @id = "empleado_rfc", @name = "empleado_rfc", placeholder = "Introduce el RFC" })
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left"> CURP: </label>
+                                @Html.TextBoxFor(m => m.empleado_curp, new { @class = "form-control", @id = "empleado_curp", @name = "empleado_curp", placeholder = "Introduce el CURP" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left"> Fecha de Nacimiento: </label>
+                                <input type="date" class="form-control" name="empleado_nacimiento" >
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left"> Fecha de Entrada: </label>
+                                <input type="date" class="form-control" name="empleado_entrada" >
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label> Centro de Costo:</label><br />
+                                <select class="form-control centro_costos" id="centro_costos"></select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label> Sucursal:</label><br />
+                                <select class="form-control sucursal" id="sucursal"></select>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label> Puesto:</label><br />
+                                <select class="form-control puesto" id="puesto"></select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label> Periodo:</label><br />
+                                <select class="form-control periodo" id="periodo"></select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label> Empresa Pagadora:</label><br />
+                                <select class="form-control empresa" id="empresa"></select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label> Sexo:</label><br />
+                                <select class="form-control sexo" id="sexo"></select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label> Estado Civil:</label><br />
+                                <select class="form-control estado_civil" id="estado_civil"></select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label> Perfil para app:</label><br />
+                                <select class="form-control perfil_app" id="perfil_app"></select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label> Tipo Indirecto:</label> <br />
+                                <select class="form-control tipo_indirecto" id="tipo_indirecto"></select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <h3 class="text-left"> Contacto de Emergencia</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Nombre</label>
+                                @Html.TextBoxFor(m => m.empleado_contacto_emergencia_nombre, new { @class = "form-control", @id = "empleado_contacto_emergencia_nombre", @name = "empleado_contacto_emergencia_nombre", placeholder = "Nombre de Contacto" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Numero</label>
+                                @Html.TextBoxFor(m => m.empleado_contacto_emergencia_telefono, new { @class = "form-control", @id = "empleado_contacto_emergencia_telefono", @name = "empleado_contacto_emergencia_telefono", placeholder = "Telefono de contacto" })
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                     @if (Model != null && Model.empleado_id != "0")
+                      {
+
+                          <div class="col-md-12">
+                              <div class="form-group has-feedback">
+                                  <label class="text-left">Fecha Alta</label>
+                                  @Html.TextBoxFor(m => m.empleado_fecha_alta, new { @class = "form-control", @id = "empleado_fecha_alta", @Readonly = "true" })
+                              </div>
+                          </div>
+                          
+                          <div class="col-md-12">
+                              <div class="form-group has-feedback">
+                                  <label>Activo:</label>
+                                  @Html.CheckBoxFor(m => m.ActivoChk, new { @checked = "checked", @id = "familia_id" })
+                              </div>
+                          </div>
+
+                      }
+
+
+                </div>
+
+                <div class="box-footer" style="text-align:right !important;">
+                    <button type="submit" id="btnSubmit" class="btn btn-primary right">Grabar</button>
+                </div>
+                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center;height:5px;">
+                    @Html.TextBoxFor(m => m.empleado_actividad_tipo, new { id = "empleado_actividad_tipo", @class = "form-control", type="hidden" })
+                    @Html.TextBoxFor(m => m.empleado_centrodecostos_id, new { id = "empleado_centrodecostos_id", @class = "form-control", type="hidden" })
+                    @Html.TextBoxFor(m => m.sucursal_id, new { id = "sucursal_id", @class = "form-control", type="hidden" })
+                    @Html.TextBoxFor(m => m.empleado_puesto_id, new { id = "empleado_puesto_id", @class = "form-control", type="hidden" })
+                    @Html.TextBoxFor(m => m.empleado_periodo_id, new { id = "empleado_periodo_id", @class = "form-control", type="hidden" })
+                    @Html.TextBoxFor(m => m.empleado_empresa_id, new { id = "empleado_empresa_id", @class = "form-control", type="hidden" })
+                    @Html.TextBoxFor(m => m.empleado_sexo_id, new { id = "empleado_sexo_id", @class = "form-control", type="hidden" })
+                    @Html.TextBoxFor(m => m.empleado_estado_civil_id, new { id = "empleado_estado_civil_id", @class = "form-control", type="hidden" })
+                    @Html.TextBoxFor(m => m.empleado_perfil_app, new { id = "empleado_perfil_app", @class = "form-control", type="hidden" })
+                    @Html.TextBoxFor(m => m.tipo_indirecto_id, new { id = "tipo_indirecto_id", @class = "form-control", type="hidden" })
+                </div>
+             }
+        
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/AdminLTE/plugins/jquery-validate/js")
+    @Scripts.Render("~/AdminLTE/plugins/select2/js")
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/Scripts/Contabilidad/Empleado")
+}

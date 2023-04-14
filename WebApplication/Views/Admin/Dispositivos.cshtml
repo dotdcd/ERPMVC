@@ -1,0 +1,55 @@
+﻿@using WebApplication.Extensions
+@using Vereyon.Web
+
+
+@Styles.Render("~/AdminLTE/plugins/datatables/css")
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/daterangepicker/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-md-12">
+            <a class="btn btn-primary" href="~/Admin/Dispositivo?Id=0">
+                Agregar Dispositivo
+            </a>
+        </div>
+    </div>
+</div>
+<br />
+
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box box-primary">
+                <div class="box-header">
+                    <h3 class="box-title"> <strong>Dispositivos</strong></h3>
+                </div>
+                <div class="box-body">
+                    <table id="dataTbl" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th class="dt-center">Descripcion</th>
+                                <th class="dt-center">Clave</th>
+                                <th class="dt-center">Rendimiento HH</th>
+                                <th class="dt-center">Rendimiento MM</th>
+                                <th class="dt-center">Disciplina</th>
+                                <th class="dt-center">Tipo Cable A</th>
+                                <th class="dt-center">Tipo Cable B</th>
+                                <th class="dt-center">Estatus</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/datatables/js")
+    @Scripts.Render("~/Scripts/Admin/Dispositivos")
+}

@@ -1,0 +1,74 @@
+﻿@using WebApplication.Extensions
+@using Vereyon.Web
+
+
+@Styles.Render("~/AdminLTE/plugins/datatables/css")
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/daterangepicker/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <a class="btn btn-primary" href="~/Contabilidad/Empleado?Id=0"> Agregar Empleado</a>
+        </div>
+    </div>
+</div>
+<br />
+<div class="container-fluid">
+    <div class="row ">
+        <div class="col-xs-12">
+            <div class="box box-primary">
+                <div class="box-header">
+                    <h3 class="box-title"> <strong>Buscar Empleado</strong></h3>
+                </div>
+                <div class="box-body">
+                    <table id="dataTbl" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Apellido Paterno</th>
+                                <th>Apellido Materno</th>
+                                <th>Tipo de Empleado</th>
+                                <th>Telefono</th>
+                                <th>No. IMSS</th>
+                                <th>Direccion</th>
+                                <th>Sueldo</th>
+                                <th>Sueldo IMSS</th>
+                                <th>Cuenta Deposito IMSS</th>
+                                <th>Cuenta Deposito Maquila</th>
+                                <th>Cotizacion Diaria IMSS</th>
+                                <th>RFC</th>
+                                <th>CURP</th>
+                                <th>Fecha de Nacimiento</th>
+                                <th>Centro de Costos</th>
+                                <th>Puesto</th>
+                                <th>Periodo</th>
+                                <th>Empresa</th>
+                                <th>Sexo</th>
+                                <th>Estado Civil</th>
+                                <th>Estatus</th>
+                                <th>Perfil App</th>
+                                <th>Sucursal</th>
+                                <th>Tipo</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var urlMultiempresa = "/Contabilidad/Empleado";
+    var urlGetMultiempresas = "/Contabilidad/GetEmpleados";
+</script>
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/datatables/js")
+    @Scripts.Render("~/Scripts/Contabilidad/Empleados")
+}

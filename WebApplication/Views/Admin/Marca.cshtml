@@ -1,0 +1,122 @@
+﻿@model App.Model.MarcasModel
+
+@{
+    ViewBag.Title = "Marca";
+    ViewBag.SubTitle = "";
+}
+
+@section Menu {
+    @Scripts.Render("~/Scripts/Forms/General/menu")
+}
+
+@Styles.Render("~/AdminLTE/bootstrap/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/select2/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+@if (TempData["NotificationMessage"] != null)
+{
+    <div id="dvMsg" style="background-color:#006699;min-height:40px; width:70%;margin:0 auto;text-align:center;line-height:50px;color:#fff;font-size:18px;box-shadow: 10px 10px 5px #888888;" runat="server" visible="false">
+        <asp:Label ID="lblMsg" runat="server">@TempData["NotificationMessage"]</asp:Label>
+    </div>
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="box box-primary">
+
+            @using (Html.BeginForm("Marca", "Admin", FormMethod.Post, new { role = "form", enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+                <div class="box-header with-border" style="margin-top:10px;">
+
+                    <div class="col-md-10">
+                        <div class="form-group has-feedback">
+                            <label class="text-left">Id Marca:</label>
+                            @Html.TextBoxFor(m => m.marca_id, new { @class = "form-control", @id = "marca_id", @Readonly = "true", @name = "marca_id", @style = "width:400px;" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="form-group has-feedback">
+                            <label class="text-left">Marca:</label>
+                            @Html.TextBoxFor(m => m.marca_descripcion, new { @class = "form-control", @id = "marca_descripcion", @name = "marca_descripcion", @style = "width:400px;" })
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-10">
+                        <div class="form-group has-feedback">
+                            <label>Activo:</label>
+                            @Html.CheckBoxFor(m => m.ActivoChk, new { @checked = "checked", @id = "activo" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="form-group has-feedback">
+                            <label class="text-left">Fecha Alta</label>
+                            @Html.TextBoxFor(m => m.marca_fecha_alta, new { @class = "form-control", @id = "marca_fecha_alta", @Readonly = "true", @style = "width:400px;" })
+                        </div>
+                    </div>
+
+                    @if (Model.marca_estatus_baja != "0")
+                    {
+
+                        <div class="col-md-10">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Fecha Baja</label>
+                                @Html.TextBoxFor(m => m.marca_fecha_baja, new { @class = "form-control", @id = "marca_fecha_baja", @Readonly = "true", @style = "width:400px;" })
+                            </div>
+                        </div>
+
+                    }
+                </div>
+
+                <div class="modal fade" id="modalError" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title">Información</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p id="message">
+                                    <asp:Label ID="lblMsg" runat="server">@TempData["NotificationMessage"]</asp:Label>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" id="btnCerrar" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="box-footer" style="text-align:right !important;">
+                    <button type="submit" id="btnSubmit" class="btn btn-primary right">Grabar</button>
+                </div>
+                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center;height:5px;">
+
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/AdminLTE/plugins/jquery-validate/js")
+    @Scripts.Render("~/AdminLTE/plugins/select2/js")
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/Scripts/Admin/Marca")
+}
+
+
+
+

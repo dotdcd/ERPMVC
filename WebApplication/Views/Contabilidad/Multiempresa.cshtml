@@ -1,0 +1,147 @@
+﻿@model App.Model.EmpresasModel
+
+@{
+    ViewBag.Title = "Empresas";
+    ViewBag.SubTitle = "";
+}
+
+@section Menu {
+    @Scripts.Render("~/Scripts/Forms/General/menu")
+}
+
+@Styles.Render("~/AdminLTE/bootstrap/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/select2/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="box box-primary">
+
+            @using (Html.BeginForm("Multiempresa", "Contabilidad", FormMethod.Post, new { role = "form", enctype = "multipart/form-data" }))
+            {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="box-header with-border" style="margin-top:10px;">
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Id Empresa:</label>
+                        @Html.TextBoxFor(m => m.empresa_id, new { @class = "form-control", @id = "empresa_id", @Readonly = "true", @name = "empresa_id", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Razon Social:</label>
+                        @Html.TextBoxFor(m => m.empresa_razon_social, new { @class = "form-control", @id = "empresa_razon_social", @name = "empresa_razon_social", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Direccion:</label>
+                        @Html.TextBoxFor(m => m.empresa_direccion, new { @class = "form-control", @id = "empresa_direccion", @name = "empresa_direccion", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Colonia:</label>
+                        @Html.TextBoxFor(m => m.empresa_colonia, new { @class = "form-control", @id = "empresa_colonia", @name = "empresa_colonia", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Ciudad y Estado:</label>
+                        @Html.TextBoxFor(m => m.empresa_ciudad_estado, new { @class = "form-control", @id = "empresa_ciudad_estado", @name = "empresa_ciudad_estado", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">RFC:</label>
+                        @Html.TextBoxFor(m => m.empresa_rfc, new { @class = "form-control", @id = "empresa_rfc", @name = "empresa_rfc", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Telefono:</label>
+                        @Html.TextBoxFor(m => m.empresa_telefono, new { @class = "form-control", @id = "empresa_telefono", @name = "empresa_telefono", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Registro Patronal:</label>
+                        @Html.TextBoxFor(m => m.empresa_registro_patronal, new { @class = "form-control", @id = "empresa_registro_patronal", @name = "empresa_registro_patronal", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Regimen Fiscal:</label>
+                        @Html.TextBoxFor(m => m.empresa_regimen_fiscal, new { @class = "form-control", @id = "empresa_regimen_fiscal", @name = "empresa_regimen_fiscal", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Codigo Postal:</label>
+                        @Html.TextBoxFor(m => m.empresa_cp, new { @class = "form-control", @id = "empresa_cp", @name = "empresa_cp", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label>Activo:</label>
+                        @Html.CheckBoxFor(m => m.ActivoChk, new { @checked = "checked", @id = "activo" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Fecha Alta:</label>
+                        @Html.TextBoxFor(m => m.empresa_fecha_alta, new { @class = "form-control", @id = "empresa_fecha_alta", @Readonly = "true", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                @if (Model.empresa_estatus_baja != "0")
+                {
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Fecha Baja:</label>
+                        @Html.TextBoxFor(m => m.empresa_estatus_baja, new { @class = "form-control", @id = "empresa_estatus_baja", @Readonly = "true", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                }
+
+            </div>
+
+            <div class="box-footer" style="text-align:right !important;">
+                <button type="submit" id="btnSubmit" class="btn btn-primary right">Grabar</button>
+            </div>
+            <div style="display:flex; flex-direction: row; justify-content: center; align-items: center;height:5px;">
+
+            </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/AdminLTE/plugins/jquery-validate/js")
+    @Scripts.Render("~/AdminLTE/plugins/select2/js")
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/Scripts/Contabilidad/Multiempresa")
+}

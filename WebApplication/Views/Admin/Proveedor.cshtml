@@ -1,0 +1,142 @@
+﻿@model App.Model.ProveedoresModel
+@{
+    ViewBag.Title = "Agregar Proveedor";
+    ViewBag.SubTitle = "";
+}
+
+@section Menu {
+    @Scripts.Render("~/Scripts/Forms/General/menu")
+}
+
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/select2/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+<a href="~/Views/Admin/Proveedor.cshtml">~/Views/Admin/Proveedor.cshtml</a>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="box box-primary">
+            @using (Html.BeginForm("Proveedor", "Admin", FormMethod.Post, new { role = "form", id = "frmProveedor", enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+
+                <div class="box-header with-border" style="margin-top:10px;">
+
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label class="text-left">Razon social:</label>
+                            @Html.TextBoxFor(m => m.proveedor_razon_social, new { @class = "form-control mb-1 display-4", @id = "proveedor_razon_social", @name = "proveedor_razon_social", placeholder = "Ingresa el razon social" })
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label>Dirección</label>
+                            @Html.TextBoxFor(m => m.proveedor_direccion, new { @class = "form-control mb-1 display-4", @id = "proveedor_direccion", @name = "proveedor_direccion", placeholder = "Ingresa la direccion" })
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label>RFC</label>
+                            @Html.TextBoxFor(m => m.proovedor_rfc, new { @class = "form-control mb-1", @id = "proovedor_rfc", placeholder = "Ingresa el RFC", @name = "proovedor_rfc" })
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label> Teléfono </label>
+                            @Html.TextBoxFor(m => m.proveedor_telefono, new { @class = "form-control mb-1", @id = "proveedor_telefono", placeholder = "Ingresa el telefono", @name = "proveedor_telefono" })
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label>Contacto</label>
+                            @Html.TextBoxFor(m => m.proveedor_contacto, new { @class = "form-control mb-1", @id = "proveedor_contacto", placeholder = "Ingresa contacto", @name = "proveedor_contacto" })
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label>Sitio Web</label>
+                            @Html.TextBoxFor(m => m.proveedor_web, new { @class = "form-control mb-1", @id = "proveedor_web", placeholder = "Ingresa web", @name = "proveedor_web" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label>Usuario y Contraseña</label>
+                            @Html.TextBoxFor(m => m.proveedor_usuario_password, new { @class = "form-control mb-1", @id = "proveedor_usuario_password", placeholder = "Ingresa usuario y contraseña", @name = "proveedor_usuario_password" })
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label>Correo del Proveedor</label>
+                            @Html.TextBoxFor(m => m.proveedor_contacto_email, new { @class = "form-control mb-1", @id = "proveedor_contacto_email", placeholder = "Ingresa el mail del proveedor", @name = "proveedor_contacto_email" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label> Días de Crédito </label>
+                            @Html.TextBoxFor(m => m.proveedor_dias_credito, new { @class = "form-control mb-1", @id = "proveedor_dias_credito", placeholder = "Ingresa los dias de credito", @name = "proveedor_dias_credito" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label> Límite de Crédito </label>
+                            @Html.TextBoxFor(m => m.proveedor_limite_credito, new { @class = "form-control mb-1", @id = "proveedor_limite_credito", placeholder = "Ingresa el limite de credito", @name = "proveedor_limite_credito" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label> Activo: </label>
+                            @Html.CheckBoxFor(m => m.ActivoChk, new {@id = "ActivoChk", name = "ActivoChk"})
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="form-group has-feedback">
+                            <label>Tipo</label>
+                            <select class="form-control select2" id="proveedor_tipo" style="width:400px;"></select>
+                        </div>
+
+                    </div>
+                </div>
+               
+                <div class="box-footer" style="text-align:right !important;">
+                    <button type="submit" id="btnSubmit" class="btn btn-primary right">Grabar</button>
+                </div>
+                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center;height:5px;">
+                    @Html.TextBoxFor(m => m.proveedor_id, new { @class = "form-control", @id = "proveedor_id", style = "visibility:hidden;", @name = "proveedor_id" })
+                    @Html.TextBoxFor(m => m.proveedor_tipo_id, new { @class = "form-control", @id = "proveedor_tipo_id", style = "visibility:hidden;" })
+                </div>               
+                                
+            }
+                           
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+    var urlGetTiposProveedor = "@Html.Raw(Url.Action("GetTiposProveedor", "Admin"))";
+</script>
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/AdminLTE/plugins/jquery-validate/js")
+    @Scripts.Render("~/AdminLTE/plugins/select2/js")
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/Scripts/Admin/Proveedor")
+}

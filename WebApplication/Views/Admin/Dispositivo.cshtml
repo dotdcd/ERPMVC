@@ -1,0 +1,90 @@
+﻿@model App.Model.CablesModel
+@{
+    ViewBag.Title = "Cables";
+    ViewBag.SubTitle = "";
+}
+
+@section Menu {
+    @Scripts.Render("~/Scripts/Forms/General/menu")
+}
+
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/select2/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+
+<div class="row">
+
+    <div class="col-md-12">
+        <div class="box box-primary">
+
+            @using (Html.BeginForm("Cable", "Admin", FormMethod.Post, new { role = "form", id = "frmCable", enctype = "multipart/form-data" }))
+                {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="box-header with-border" style="margin-top:10px;">
+
+                <div class="row ">
+
+                    <div class="col-md-8">
+                        <div class="form-group has-feedback">
+                            <label class="text-left">Id Cable:</label>
+                            @Html.TextBoxFor(m => m.cable_id, new { @class = "form-control", @id = "cable_id", @ReadOnly = "true", @name = "cable_id", @style = "width:400px;" })
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-group has-feedback">
+                            <label class="text-left">Nombre:</label>
+                            @Html.TextBoxFor(m => m.descripcion, new { @class = "form-control", @id = "descripcion", @name = "descripcion", @style = "width:400px;" })
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-group has-feedback">
+                            <label>Clave:</label>
+                            @Html.TextBoxFor(m => m.clave, new { @class = "form-control", @id = "clave", @name = "clave", @style = "width:400px;" })
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-group has-feedback">
+                            <label>Activo:</label>
+                            @Html.CheckBoxFor(m => m.ActivoChk, new { @checked = "checked", @id = "activo" })
+                        </div>
+                    </div>
+                    @if (Model.cable_estatus_baja != "0")
+                            {
+                    <div class="col-md-6" style="">
+                                    <div class="form-edback">
+                                        <label class="texa Baja</label>                             
+Html.TextBoxFor(m => m.cable_fecha_baja, new { @class = "form-control", @id = "cable_fecha_baja", @Readonly = "true", @style = "width:400px;" })
+
+                                    </div>
+                    </div>
+                }
+
+                            <div style="">
+                        @Html.TextBoxFor(m => m.cable_id, new { @class = "form-control", @id = "cable_id", style = "visibility:hidden;"                        </div>
+                        </div>
+
+                    </div>
+
+                    <div class="box-footer" s
+                      n type="submit" id="t" class="btn btn-prght">Grabar</button>
+                    </div>
+                    <div style                  </div> 
+                }
+            </div>
+        </div>
+    </div>
+
+
+
+@seripts {
+    @Script("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/AdminLTE/plugins/jquery-validate/js")
+    @Scripts.Render("~/AdminLTs/selet2/js")
+    @Scripts.RenderAdminLTE/borap/js"  @Scripts.Render("~/Scripts/Admin/Cable")
+}
+
+
+

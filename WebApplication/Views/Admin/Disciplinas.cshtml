@@ -1,0 +1,48 @@
+﻿@using WebApplication.Extensions
+@using Vereyon.Web
+
+@Styles.Render("~/AdminLTE/plugins/datatables/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <a class="btn btn-primary" href="~/Admin/Disciplina?Id=0"> Agregar Disciplina</a>
+        </div>
+    </div>
+</div>
+<br />
+
+
+
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box box-primary">
+                <div class="box-header">
+                    <h3 class="box-title"> <strong>Disciplina</strong></h3>
+                </div>
+                <div class="box-body">
+                    <table id="dataTbl" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th class="dt-center"> ID </th>
+                                <th class="dt-center"> Nombre </th>
+                                <th class="dt-center"> Clave </th>
+                                <th class="dt-center"> Estatus </th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/datatables/js")
+    @Scripts.Render("~/Scripts/Admin/Disciplinas")
+}

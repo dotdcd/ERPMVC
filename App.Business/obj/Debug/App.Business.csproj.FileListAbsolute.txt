@@ -1,0 +1,70 @@
+C:\Proyectos\Dot\DotErp Mvc\App.Business\bin\Debug\App.Business.dll
+C:\Proyectos\Dot\DotErp Mvc\App.Business\bin\Debug\App.Business.pdb
+C:\Proyectos\Dot\DotErp Mvc\App.Business\bin\Debug\App.Contracts.dll
+C:\Proyectos\Dot\DotErp Mvc\App.Business\bin\Debug\App.Data.dll
+C:\Proyectos\Dot\DotErp Mvc\App.Business\bin\Debug\App.Model.dll
+C:\Proyectos\Dot\DotErp Mvc\App.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Proyectos\Dot\DotErp Mvc\App.Business\bin\Debug\App.Contracts.pdb
+C:\Proyectos\Dot\DotErp Mvc\App.Business\bin\Debug\App.Data.pdb
+C:\Proyectos\Dot\DotErp Mvc\App.Business\bin\Debug\App.Model.pdb
+C:\Proyectos\Dot\DotErp Mvc\App.Business\obj\Debug\App.Business.csprojAssemblyReference.cache
+C:\Proyectos\Dot\DotErp Mvc\App.Business\obj\Debug\App.Business.csproj.CoreCompileInputs.cache
+C:\Proyectos\Dot\DotErp Mvc\App.Business\obj\Debug\App.Business.csproj.CopyComplete
+C:\Proyectos\Dot\DotErp Mvc\App.Business\obj\Debug\App.Business.dll
+C:\Proyectos\Dot\DotErp Mvc\App.Business\obj\Debug\App.Business.pdb
+C:\Users\dotdcd\DotErp Mvc\App.Business\bin\Debug\App.Business.dll
+C:\Users\dotdcd\DotErp Mvc\App.Business\bin\Debug\App.Business.pdb
+C:\Users\dotdcd\DotErp Mvc\App.Business\bin\Debug\App.Contracts.dll
+C:\Users\dotdcd\DotErp Mvc\App.Business\bin\Debug\App.Data.dll
+C:\Users\dotdcd\DotErp Mvc\App.Business\bin\Debug\App.Model.dll
+C:\Users\dotdcd\DotErp Mvc\App.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dotdcd\DotErp Mvc\App.Business\bin\Debug\App.Contracts.pdb
+C:\Users\dotdcd\DotErp Mvc\App.Business\bin\Debug\App.Data.pdb
+C:\Users\dotdcd\DotErp Mvc\App.Business\bin\Debug\App.Model.pdb
+C:\Users\dotdcd\DotErp Mvc\App.Business\obj\Debug\App.Business.csproj.AssemblyReference.cache
+C:\Users\dotdcd\DotErp Mvc\App.Business\obj\Debug\App.Business.csproj.CoreCompileInputs.cache
+C:\Users\dotdcd\DotErp Mvc\App.Business\obj\Debug\App.Business.csproj.CopyComplete
+C:\Users\dotdcd\DotErp Mvc\App.Business\obj\Debug\App.Business.dll
+C:\Users\dotdcd\DotErp Mvc\App.Business\obj\Debug\App.Business.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\bin\Debug\App.Business.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\bin\Debug\App.Business.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\bin\Debug\App.Contracts.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\bin\Debug\App.Data.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\bin\Debug\App.Model.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\bin\Debug\App.Contracts.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\bin\Debug\App.Data.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\bin\Debug\App.Model.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\obj\Debug\App.Business.csproj.AssemblyReference.cache
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\obj\Debug\App.Business.csproj.CoreCompileInputs.cache
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\obj\Debug\App.Business.csproj.CopyComplete
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\obj\Debug\App.Business.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\App.Business\obj\Debug\App.Business.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\bin\Debug\App.Business.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\bin\Debug\App.Business.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\bin\Debug\App.Contracts.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\bin\Debug\App.Data.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\bin\Debug\App.Model.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\bin\Debug\App.Contracts.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\bin\Debug\App.Data.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\bin\Debug\App.Model.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\obj\Debug\App.Business.csproj.AssemblyReference.cache
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\obj\Debug\App.Business.csproj.CoreCompileInputs.cache
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\obj\Debug\App.Business.csproj.CopyComplete
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\obj\Debug\App.Business.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\App.Business\obj\Debug\App.Business.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\bin\Debug\App.Business.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\bin\Debug\App.Business.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\bin\Debug\App.Contracts.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\bin\Debug\App.Data.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\bin\Debug\App.Model.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\bin\Debug\App.Contracts.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\bin\Debug\App.Data.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\bin\Debug\App.Model.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\obj\Debug\App.Business.csproj.AssemblyReference.cache
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\obj\Debug\App.Business.csproj.CoreCompileInputs.cache
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\obj\Debug\App.Business.csproj.CopyComplete
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\obj\Debug\App.Business.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Business\obj\Debug\App.Business.pdb

@@ -1,0 +1,30 @@
+C:\Proyectos\Dot\DotErp Mvc\App.Data\bin\Debug\App.Data.dll
+C:\Proyectos\Dot\DotErp Mvc\App.Data\bin\Debug\App.Data.pdb
+C:\Proyectos\Dot\DotErp Mvc\App.Data\bin\Debug\EntityFramework.dll
+C:\Proyectos\Dot\DotErp Mvc\App.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Proyectos\Dot\DotErp Mvc\App.Data\bin\Debug\EntityFramework.xml
+C:\Proyectos\Dot\DotErp Mvc\App.Data\obj\Debug\App.Data.csprojAssemblyReference.cache
+C:\Proyectos\Dot\DotErp Mvc\App.Data\obj\Debug\App.Data.csproj.CoreCompileInputs.cache
+C:\Proyectos\Dot\DotErp Mvc\App.Data\obj\Debug\App.Data.csproj.CopyComplete
+C:\Proyectos\Dot\DotErp Mvc\App.Data\obj\Debug\App.Data.dll
+C:\Proyectos\Dot\DotErp Mvc\App.Data\obj\Debug\App.Data.pdb
+C:\Users\dotdcd\DotErp Mvc\App.Data\bin\Debug\App.Data.dll
+C:\Users\dotdcd\DotErp Mvc\App.Data\bin\Debug\App.Data.pdb
+C:\Users\dotdcd\DotErp Mvc\App.Data\bin\Debug\EntityFramework.dll
+C:\Users\dotdcd\DotErp Mvc\App.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dotdcd\DotErp Mvc\App.Data\bin\Debug\EntityFramework.xml
+C:\Users\dotdcd\DotErp Mvc\App.Data\obj\Debug\App.Data.csproj.AssemblyReference.cache
+C:\Users\dotdcd\DotErp Mvc\App.Data\obj\Debug\App.Data.csproj.CoreCompileInputs.cache
+C:\Users\dotdcd\DotErp Mvc\App.Data\obj\Debug\App.Data.csproj.CopyComplete
+C:\Users\dotdcd\DotErp Mvc\App.Data\obj\Debug\App.Data.dll
+C:\Users\dotdcd\DotErp Mvc\App.Data\obj\Debug\App.Data.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Data\bin\Debug\App.Data.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Data\bin\Debug\App.Data.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Data\bin\Debug\EntityFramework.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Data\bin\Debug\EntityFramework.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Data\obj\Debug\App.Data.csproj.AssemblyReference.cache
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Data\obj\Debug\App.Data.csproj.CoreCompileInputs.cache
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Data\obj\Debug\App.Data.csproj.CopyComplete
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Data\obj\Debug\App.Data.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\App.Data\obj\Debug\App.Data.pdb

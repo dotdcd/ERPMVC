@@ -1,0 +1,125 @@
+﻿@model App.Model.SampleModel
+@{
+    ViewBag.Title = "Captura Dummy";
+    ViewBag.SubTitle = "";
+}
+
+@section Menu {
+    @Scripts.Render("~/Scripts/Forms/General/menu")
+}
+
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/select2/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="box box-primary">
+
+            @using (Html.BeginForm("Sample", "Home", FormMethod.Post, new { role = "form", id = "frmSample", enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+                <div class="box-header with-border" style="margin-top:10px;">
+
+                    <div class="col-md-3" style="align-items: center !important;">
+                        <div class="form-group has-feedback">
+                            <label>Folio:</label>
+                            @Html.TextBoxFor(m => m.IdTicket, new { @class = "form-control", @id = "descTicket", @Readonly = "true" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-3" style="align-items: center !important;">
+                        <div class="form-group has-feedback">
+                            <label>Fecha:</label>
+                            @Html.TextBoxFor(m => m.DateTicket, new { @class = "form-control", @id = "dateTicket", @Readonly = "true" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" style="align-items: center !important;">
+                        <div class="form-group has-feedback">
+                            <label>Solicitante:</label>
+                            @Html.TextBoxFor(m => m.UserAssigned, new { @class = "form-control", @id = "userRequest", @Readonly = "true" })
+                        </div>
+                    </div>
+
+                    <div class="col-md-5" style="align-items: center !important;">
+                        <div class="form-group has-feedback">
+                            <label>Cliente:</label>
+                            <select class="form-control select2" id="customer" style="width:100%;"></select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5" style="align-items: center !important;">
+                        <div class="form-group has-feedback">
+                            <label>Proyecto:</label>
+                            <select class="form-control select2" id="proyecto" style="width:100%;"></select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10" style="align-items: center !important;">
+                        <div class="form-group has-feedback">
+                            <label>Descripción:</label>
+                            @Html.TextBoxFor(m => m.DescTicket, new { @class = "form-control", @id = "descTicket" })
+                        </div>
+                    </div>                   
+
+                    <div class="col-md-5" style="align-items: center !important;">
+                        <div class="form-group has-feedback">
+                            <label>Asignar a:</label>
+                            <select class="form-control select2" id="usuario" style="width:100%;"></select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5" style="align-items: center !important;">
+                        <div class="form-group has-feedback">
+                            <label>Estatus:</label>
+                            @Html.TextBoxFor(m => m.NameStatus, new { @class = "form-control", @id = "nameStatus", @Readonly = "true" })
+                        </div>
+                    </div>                    
+
+                    <div class="col-md-10" style="align-items: center !important;">
+                        <div class="form-group has-feedback"></div>
+                    </div>
+
+                </div>
+                
+
+                <div class="box-footer" style="text-align:right !important;">
+                    <button type="submit" id="btnSave" class="btn btn-primary right">Grabar</button>
+                </div>
+
+                <div style="display:flex; flex-direction: row; justify-content: center; align-items: center;height:5px;">
+                    @Html.TextBoxFor(m => m.IdTicket, new { @class = "form-control", @id = "idTicket", style = "visibility:hidden;" })
+                    @Html.TextBoxFor(m => m.IdUser, new { @class = "form-control", @id = "idUser", style = "visibility:hidden;" })
+                    @Html.TextBoxFor(m => m.IdStatus, new { @class = "form-control", @id = "idStatus", style = "visibility:hidden;" })
+                    @Html.TextBoxFor(m => m.IdUserAssigned, new { @class = "form-control", @id = "idUserAssigned", style = "visibility:hidden;" })
+                    @Html.TextBoxFor(m => m.UserAssigned, new { @class = "form-control", @id = "userAssigned", style = "visibility:hidden;" })
+                    @Html.TextBoxFor(m => m.IdCustomer, new { @class = "form-control", @id = "idCustomer", style = "visibility:hidden;" })
+                    @Html.TextBoxFor(m => m.IdProject, new { @class = "form-control", @id = "idProject", style = "visibility:hidden;" })
+                    @Html.TextBoxFor(m => m.NameProject, new { @class = "form-control", @id = "nameProject", style = "visibility:hidden;" })
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var urlGetEmployees = "@Html.Raw(Url.Action("GetEmployees", "Home"))";
+    var urlGetProjects = "@Html.Raw(Url.Action("GetProjects", "Home"))";
+    var urlGetCustomers = "@Html.Raw(Url.Action("GetCustomers", "Home"))";    
+</script>
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/bootstrap/js")    
+    @Scripts.Render("~/AdminLTE/plugins/jquery-validate/js")
+    @Scripts.Render("~/AdminLTE/plugins/select2/js")
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/Scripts/Home/Sample")
+}
+
+
+
+

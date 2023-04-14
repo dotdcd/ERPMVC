@@ -1,0 +1,143 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>DOTDCD - Asitencia</title>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrcOf4tJlBRaYYUPdWlFcj9IXlmFfFdak&callback=initMap"></script>
+
+<script type="text/javascript" language="javascript">
+		var markers;
+		var coordinates;
+		var map;
+		var route;
+		var markers2;
+		var coordinates2;
+		
+		function GetURLParameter(sParam){
+			var sPageURL = window.location.search.substring(1);
+			var sURLVariables = sPageURL.split('&');
+			for (var i = 0; i < sURLVariables.length; i++) 
+			{
+				var sParameterName = sURLVariables[i].split('=');
+				if (sParameterName[0] == sParam) 
+				{
+					return sParameterName[1];
+				}
+			}
+		}
+
+		function window_onload() {
+
+			markers = null;
+			markers2 = null;
+			coordinates = null;
+			coordinates2 = null;
+			map = null;
+			route = null;
+
+			var areaLat = 0;
+			var areaLng = 0;
+			var total = 0;
+
+			areaLat = GetURLParameter('lat');
+			areaLng = GetURLParameter('lon');
+			
+			var latlng = new google.maps.LatLng(areaLat, areaLng);
+				var myOptions = {
+					zoom: 12,
+					center: latlng,
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				};
+
+			var marker;
+
+			var infoWindowContent = [];
+			map = new google.maps.Map(document.getElementById("map"), myOptions);
+			getInfo();		
+			
+			var infoWindow = new google.maps.InfoWindow(), marker, i;
+
+			for( i = 0; i < markers.length; i++ ) {
+				var position = new google.maps.LatLng(markers[i][0], markers[i][1]);
+				var marker = new google.maps.Marker({
+					position: position,
+					map: map
+				});
+
+				marker.setIcon('http://dotdcd.com/erp/img/checkin.png');
+			}
+
+
+			var lat3 = GetURLParameter('lat3');
+			var lon3 = GetURLParameter('lon3');
+			
+			var position3 = new google.maps.LatLng(lat3, lon3);
+			var marker3 = new google.maps.Marker({
+				position: position3,
+				map: map
+			});
+			marker3.setIcon('http://dotdcd.com/erp/img/comida.png');
+			
+			var lat4 = GetURLParameter('lat4');
+			var lon4 = GetURLParameter('lon4');
+			
+			var position4 = new google.maps.LatLng(lat4, lon4);
+			var marker4 = new google.maps.Marker({
+				position: position4,
+				map: map
+			});
+			marker4.setIcon('http://dotdcd.com/erp/img/regreso.png');
+			
+			
+			var lat2 = GetURLParameter('lat2');
+			var lon2 = GetURLParameter('lon2');
+			
+			var position2 = new google.maps.LatLng(lat2, lon2);
+			var marker2 = new google.maps.Marker({
+				position: position2,
+				map: map
+			});
+			marker2.setIcon('http://dotdcd.com/erp/img/salida.png');
+		}
+		
+		function getInfo(){
+			var latitud = GetURLParameter('lat');
+			var longitud = GetURLParameter('lon');
+			
+			markers = new Array(1);
+			markers [0] = new Array(2)
+			markers[0][0] = latitud;
+			markers[0][1] = longitud;
+		}
+		
+	</script>
+	
+</head>
+<body onload="window_onload();">
+    <form id="form1" runat="server">
+		<table>
+			<tr>
+				<td valign="middle">
+					<img src='http://dotdcd.com/erp/img/checkin.png'>Entrada</img>
+				</td>
+				<td valign="middle" width=10></td>
+				<td>
+					<img src='http://dotdcd.com/erp/img/comida.png'>Salida a comer</img>
+				</td>
+				<td valign="middle" width=10></td>
+				<td>
+					<img src='http://dotdcd.com/erp/img/regreso.png'>Regreso de comida</img>
+				</td>
+				<td valign="middle" width=10></td>
+				<td>
+					<img src='http://dotdcd.com/erp/img/salida.png'>Salida</img>
+				</td>
+			</tr>
+		</table>
+		<div id ="map" style="height: 500px; width:100%; top:0px; left:0px;"></div>
+    </form>
+	
+
+</body>
+
+</html>

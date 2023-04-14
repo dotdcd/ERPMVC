@@ -1,0 +1,207 @@
+﻿@model App.Model.ClientesModel
+@{
+    ViewBag.Title = "Clientes";
+    ViewBag.SubTitle = "";
+}
+
+@section Menu {
+    @Scripts.Render("~/Scripts/Forms/General/menu")
+}
+
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/select2/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+
+<div class="container-fluid">
+    <div class="row">
+
+
+        <div class="col-md-12">
+            <div class="box box-primary">
+
+                @using (Html.BeginForm("Cliente", "Admin", FormMethod.Post, new { role = "form", id = "frmCable", enctype = "multipart/form-data" }))
+                {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+                <div class="container-fluid">
+                    <div class="row ">
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Cliente id:</label>
+                                @Html.TextBoxFor(m => m.cliente_id, new { @class = "form-control", @id = "cliente_id", @ReadOnly = "true", @name = "cliente_id"})
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Nombre:</label>
+                                @Html.TextBoxFor(m => m.cliente_razon_social, new { @class = "form-control", @id = "cliente_razon_social", @name = "cliente_razon_social" })
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Calle:</label>
+                                @Html.TextBoxFor(m => m.cliente_calle, new { @class = "form-control", @id = "cliente_calle", @name = "cliente_calle" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Numero:</label>
+                                @Html.TextBoxFor(m => m.cliente_numero, new { @class = "form-control", @id = "cliente_numero", @name = "cliente_numero" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Colonia:</label>
+                                @Html.TextBoxFor(m => m.cliente_colonia, new { @class = "form-control", @id = "cliente_colonia", @name = "cliente_colonia" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Municipio:</label>
+                                @Html.TextBoxFor(m => m.cliente_municipio, new { @class = "form-control", @id = "cliente_municipio", @name = "cliente_municipio" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Estado:</label>
+                                @Html.TextBoxFor(m => m.cliente_estado, new { @class = "form-control", @id = "cliente_estado", @name = "cliente_estado" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Codigo Postal:</label>
+                                @Html.TextBoxFor(m => m.cliente_codigo_postal, new { @class = "form-control", @id = "cliente_codigo_postal", @name = "cliente_codigo_postal" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>RFC:</label>
+                                @Html.TextBoxFor(m => m.cliente_rfc, new { @class = "form-control", @id = "cliente_rfc", @name = "cliente_rfc" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Telefono:</label>
+                                @Html.TextBoxFor(m => m.cliente_telefono, new { @class = "form-control", @id = "cliente_telefono", @name = "cliente_telefono" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Trafico:</label>
+                                @Html.TextBoxFor(m => m.cliente_trafico, new { @class = "form-control", @id = "cliente_trafico", @name = "cliente_trafico" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Contacto de Cobranza:</label>
+                                @Html.TextBoxFor(m => m.cliente_cobranza, new { @class = "form-control", @id = "cliente_cobranza", @name = "cliente_cobranza" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Regimen Fiscal:</label>
+                                @Html.TextBoxFor(m => m.cliente_regimen_fiscal, new { @class = "form-control", @id = "cliente_regimen_fiscal", @name = "cliente_regimen_fiscal" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Correo:</label>
+                                @Html.TextBoxFor(m => m.cliente_email, new { @class = "form-control", @id = "cliente_email", @name = "cliente_email" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Contacto:</label>
+                                @Html.TextBoxFor(m => m.cliente_contacto, new { @class = "form-control", @id = "cliente_contacto", @name = "cliente_contacto" })
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label>Activo:</label>
+                                @Html.CheckBoxFor(m => m.ActivoChk, new { @checked = "checked", @id = "activo" })
+                            </div>
+                        </div>
+
+
+
+
+                        @if (Model.cliente_estatus_baja == "1")
+                        {
+                        <div class="col-md-6" style="align-items: left !important;">
+                            <div class="form-group has-feedback">
+                                <label class="text-left">Fecha Baja</label>
+                                <input type="date" value="Model.cliente_fecha_baja" placeholder="" id="cliente_fecha_baja" class="form-control" disabled />
+                            </div>
+                        </div>
+                        }
+
+
+                    </div>
+
+
+                </div>
+
+                <br />
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4"><button type="submit" id="btnSave" class="btn btn-primary btn-block btn-lg">@if (Model.cliente_id == "0") { <span>Guardar</span> } else { <span>Actualizar</span> }</button></div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                }
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    function cargarFechaActual() {
+        // Obtener la fecha actual
+        const fechaActual = new Date().toISOString().slice(0, 10);
+
+        // Obtener el input de tipo fecha
+        const inputFecha = document.getElementById('input-fecha');
+        const inputFecha2 = document.getElementById('input-fecha2');
+        // Establecer el valor del input con la fecha actual
+        inputFecha.value = fechaActual;
+        inputFecha2.value = fechaActual;
+    }
+
+    //window.addEventListener('load', cargarFechaActual);
+
+</script>
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/AdminLTE/plugins/jquery-validate/js")
+    @Scripts.Render("~/AdminLTE/plugins/select2/js")
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/Scripts/Admin/Cliente")
+}

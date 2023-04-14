@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\App.Business",
+    "\\WebApplication",
+    "\\WebApplication\\App_Start",
+    "\\WebApplication\\Controllers",
+    "\\WebApplication\\Scripts",
+    "\\WebApplication\\Scripts\\Admin",
+    "\\WebApplication\\Views",
+    "\\WebApplication\\Views\\Admin",
+    "\\WebApplication\\Views\\Contabilidad"
+  ],
+  "SelectedNode": "\\WebApplication\\Scripts\\Admin\\Proveedor.js",
+  "PreviewInSolutionExplorer": false
+}

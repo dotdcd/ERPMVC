@@ -1,0 +1,814 @@
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\csc.exe
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\vbc.exe
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\AsignarEntrega.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\ConfigurarRemision.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\ContratosPorVencer.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\EstatusReportes.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\GenerarContrato.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\GenerarRemision.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\PagosValidar.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\PagosVencidos.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\ProgramarLimpieza.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\SolicitarReposicion.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\SolicitarServicio.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Admin\SolicitudesAut.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Forms\SolicitudEst.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Home\Comprobante.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Home\Remision.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Home\Renovar.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Home\Reporte.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Report\Actividades.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Report\Entregas.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Report\Reportes.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Report\Reposiciones.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Report\ServicioExterno.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Scripts\Report\Validaciones.js
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Resources.resx
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Resources.Designer.cs
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\WebApplication.dll.config
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\WebApplication.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\WebApplication.pdb
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Antlr3.Runtime.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\EntityFramework.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\itextsharp.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Newtonsoft.Json.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Owin.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Spire.Doc.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Spire.License.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Spire.Pdf.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Json.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.Helpers.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.Http.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.Mvc.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.Optimization.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.Razor.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.WebPages.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Vereyon.Web.FlashMessage.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\WebGrease.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.mshtml.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\itextsharp.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Spire.Doc.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Spire.License.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Spire.Pdf.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Json.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Net.Http.Formatting.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.Http.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.Helpers.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.Mvc.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.Optimization.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.Razor.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.WebPages.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Antlr3.Runtime.pdb
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Newtonsoft.Json.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\EntityFramework.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\obj\Debug\WebApplication.Resources.resources
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\obj\Debug\WebApplication.csproj.GenerateResource.cache
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\obj\Debug\WebApplication.dll
+C:\Proyectos\dot\RentaAdmin\RentaAdminII\WebApplication\obj\Debug\WebApplication.pdb
+C:\Proyectos\dot\Tickets\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
+C:\Proyectos\dot\Tickets\WebApplication\obj\Debug\WebApplication.Resources.resources
+C:\Proyectos\dot\Tickets\WebApplication\obj\Debug\WebApplication.csproj.GenerateResource.cache
+C:\Proyectos\dot\Tickets\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Proyectos\dot\Tickets\WebApplication\obj\Debug\WebApplication.dll
+C:\Proyectos\dot\Tickets\WebApplication\obj\Debug\WebApplication.pdb
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\csc.exe
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\vbc.exe
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Proyectos\dot\Tickets\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyectos\dot\Tickets\WebApplication\bin\Resources.resx
+C:\Proyectos\dot\Tickets\WebApplication\bin\Resources.Designer.cs
+C:\Proyectos\dot\Tickets\WebApplication\bin\WebApplication.dll.config
+C:\Proyectos\dot\Tickets\WebApplication\bin\WebApplication.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\WebApplication.pdb
+C:\Proyectos\dot\Tickets\WebApplication\bin\Antlr3.Runtime.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\EntityFramework.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\itextsharp.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Newtonsoft.Json.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Owin.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Spire.Doc.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Spire.License.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Spire.Pdf.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Json.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.Helpers.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.Http.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.Mvc.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.Optimization.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.Razor.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.WebPages.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Vereyon.Web.FlashMessage.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\WebGrease.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.mshtml.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\itextsharp.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Spire.Doc.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Spire.License.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Spire.Pdf.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Json.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Net.Http.Formatting.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.Http.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.Helpers.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.Mvc.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.Optimization.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.Razor.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.WebPages.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Antlr3.Runtime.pdb
+C:\Proyectos\dot\Tickets\WebApplication\bin\Newtonsoft.Json.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\EntityFramework.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyectos\dot\Tickets\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyectos\dot\Tickets\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\csc.exe
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\vbc.exe
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Resources.resx
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Resources.Designer.cs
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\WebApplication.dll.config
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\WebApplication.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\WebApplication.pdb
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Antlr3.Runtime.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\EntityFramework.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\itextsharp.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Newtonsoft.Json.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Owin.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Spire.Doc.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Spire.License.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Spire.Pdf.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Json.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.Helpers.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.Http.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.Mvc.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.Optimization.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.Razor.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.WebPages.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Vereyon.Web.FlashMessage.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\WebGrease.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.mshtml.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\itextsharp.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Spire.Doc.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Spire.License.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Spire.Pdf.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Json.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Net.Http.Formatting.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.Http.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.Helpers.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.Mvc.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.Optimization.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.Razor.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.WebPages.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Antlr3.Runtime.pdb
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Newtonsoft.Json.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\EntityFramework.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyectos\dot\ApplicationMvc\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
+C:\Proyectos\dot\ApplicationMvc\WebApplication\obj\Debug\WebApplication.Resources.resources
+C:\Proyectos\dot\ApplicationMvc\WebApplication\obj\Debug\WebApplication.csproj.GenerateResource.cache
+C:\Proyectos\dot\ApplicationMvc\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Proyectos\dot\ApplicationMvc\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Proyectos\dot\ApplicationMvc\WebApplication\obj\Debug\WebApplication.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\obj\Debug\WebApplication.pdb
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\App.Business.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\App.Contracts.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\App.Model.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\App.Data.dll
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\App.Business.pdb
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\App.Contracts.pdb
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\App.Model.pdb
+C:\Proyectos\dot\ApplicationMvc\WebApplication\bin\App.Data.pdb
+C:\Proyectos\dot\Tickets\WebApplication\bin\App.Business.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\App.Contracts.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\App.Model.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\App.Data.dll
+C:\Proyectos\dot\Tickets\WebApplication\bin\App.Business.pdb
+C:\Proyectos\dot\Tickets\WebApplication\bin\App.Contracts.pdb
+C:\Proyectos\dot\Tickets\WebApplication\bin\App.Model.pdb
+C:\Proyectos\dot\Tickets\WebApplication\bin\App.Data.pdb
+C:\Proyectos\dot\Tickets\WebApplication\obj\Debug\WebApplication.Migrations.InitialCreate.resources
+C:\Proyectos\dot\ApplicationMvc\WebApplication\obj\Debug\WebApplication.Migrations.InitialCreate.resources
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\csc.exe
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\vbc.exe
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Resources.resx
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Resources.Designer.cs
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\WebApplication.dll.config
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\WebApplication.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\WebApplication.pdb
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Antlr3.Runtime.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\App.Business.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\App.Contracts.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\App.Model.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\EntityFramework.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\itextsharp.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Newtonsoft.Json.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Owin.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Spire.Doc.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Spire.License.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Spire.Pdf.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Json.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.Helpers.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.Http.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.Mvc.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.Optimization.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.Razor.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.WebPages.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Vereyon.Web.FlashMessage.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\WebGrease.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\App.Data.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.mshtml.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\App.Business.pdb
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\App.Contracts.pdb
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\App.Model.pdb
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\itextsharp.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Spire.Doc.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Spire.License.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Spire.Pdf.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Json.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Net.Http.Formatting.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.Http.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.Helpers.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.Mvc.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.Optimization.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.Razor.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.WebPages.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Antlr3.Runtime.pdb
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Newtonsoft.Json.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\EntityFramework.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\bin\App.Data.pdb
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\obj\Debug\WebApplication.Migrations.InitialCreate.resources
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\obj\Debug\WebApplication.Resources.resources
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csproj.GenerateResource.cache
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\obj\Debug\WebApplication.dll
+C:\Proyectos\Dot\DotErp Mvc\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\dotdcd\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csproj.AssemblyReference.cache
+C:\Users\dotdcd\DotErp Mvc\WebApplication\obj\Debug\WebApplication.Migrations.InitialCreate.resources
+C:\Users\dotdcd\DotErp Mvc\WebApplication\obj\Debug\WebApplication.Resources.resources
+C:\Users\dotdcd\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csproj.GenerateResource.cache
+C:\Users\dotdcd\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\csc.exe
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\vbc.exe
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Resources.resx
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Resources.Designer.cs
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\WebApplication.dll.config
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\WebApplication.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\WebApplication.pdb
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Antlr3.Runtime.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\App.Business.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\App.Contracts.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\App.Model.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\EntityFramework.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\itextsharp.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Newtonsoft.Json.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Owin.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Spire.Doc.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Spire.License.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Spire.Pdf.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Json.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.Helpers.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.Http.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.Mvc.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.Optimization.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.Razor.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.WebPages.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Vereyon.Web.FlashMessage.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\WebGrease.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\App.Data.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.mshtml.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\App.Business.pdb
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\App.Contracts.pdb
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\App.Model.pdb
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\itextsharp.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Spire.Doc.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Spire.License.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Spire.Pdf.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Json.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.Http.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.Helpers.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.Mvc.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.Optimization.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.Razor.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.WebPages.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Antlr3.Runtime.pdb
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Newtonsoft.Json.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\EntityFramework.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dotdcd\DotErp Mvc\WebApplication\bin\App.Data.pdb
+C:\Users\dotdcd\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Users\dotdcd\DotErp Mvc\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\dotdcd\DotErp Mvc\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\csc.exe
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\vbc.exe
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Resources.resx
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Resources.Designer.cs
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\WebApplication.dll.config
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\WebApplication.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\WebApplication.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Antlr3.Runtime.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\App.Business.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\App.Contracts.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\App.Model.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\EntityFramework.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\itextsharp.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Newtonsoft.Json.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Owin.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Spire.Doc.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Spire.License.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Spire.Pdf.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Json.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.Helpers.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.Http.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.Mvc.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.Optimization.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.Razor.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.WebPages.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Vereyon.Web.FlashMessage.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\WebGrease.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\App.Data.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.mshtml.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\App.Business.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\App.Contracts.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\App.Model.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\itextsharp.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Spire.Doc.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Spire.License.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Spire.Pdf.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Json.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.Http.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.Helpers.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.Mvc.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.Optimization.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.Razor.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.WebPages.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Antlr3.Runtime.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Newtonsoft.Json.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\EntityFramework.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\bin\App.Data.pdb
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csproj.AssemblyReference.cache
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\obj\Debug\WebApplication.Migrations.InitialCreate.resources
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\obj\Debug\WebApplication.Resources.resources
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csproj.GenerateResource.cache
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\angel\DotErp Mvc\DotErp Mvc\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\obj\Debug\WebApplication.csproj.AssemblyReference.cache
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\obj\Debug\WebApplication.Migrations.InitialCreate.resources
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\obj\Debug\WebApplication.Resources.resources
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\obj\Debug\WebApplication.csproj.GenerateResource.cache
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\csc.exe
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\vbc.exe
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Resources.resx
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Resources.Designer.cs
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\WebApplication.dll.config
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\WebApplication.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\WebApplication.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Antlr3.Runtime.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\App.Business.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\App.Contracts.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\App.Model.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\EntityFramework.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\itextsharp.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Newtonsoft.Json.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Owin.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Spire.Doc.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Spire.License.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Spire.Pdf.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Json.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.Helpers.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.Http.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.Mvc.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.Optimization.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.Razor.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.WebPages.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Vereyon.Web.FlashMessage.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\WebGrease.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\App.Data.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.mshtml.dll
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\App.Business.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\App.Contracts.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\App.Model.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\itextsharp.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Spire.Doc.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Spire.License.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Spire.Pdf.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Json.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.Http.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.Helpers.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.Mvc.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.Optimization.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.Razor.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.WebPages.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Antlr3.Runtime.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Newtonsoft.Json.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\EntityFramework.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\bin\App.Data.pdb
+C:\Users\dotdcd\Desktop\Nueva carpeta\ERP-master\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\csc.exe
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\vbc.exe
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Resources.resx
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Resources.Designer.cs
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\WebApplication.dll.config
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\WebApplication.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\WebApplication.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Antlr3.Runtime.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\App.Business.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\App.Contracts.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\App.Model.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\EntityFramework.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\itextsharp.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Newtonsoft.Json.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Owin.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Spire.Doc.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Spire.License.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Spire.Pdf.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Json.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.Helpers.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.Http.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.Mvc.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.Optimization.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.Razor.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.WebPages.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Vereyon.Web.FlashMessage.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\WebGrease.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\App.Data.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.mshtml.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\App.Business.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\App.Contracts.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\App.Model.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\itextsharp.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Spire.Doc.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Spire.License.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Spire.Pdf.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Json.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.Http.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.Helpers.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.Mvc.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.Optimization.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.Razor.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.WebPages.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Antlr3.Runtime.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Newtonsoft.Json.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\EntityFramework.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\bin\App.Data.pdb
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\obj\Debug\WebApplication.csproj.AssemblyReference.cache
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\obj\Debug\WebApplication.Migrations.InitialCreate.resources
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\obj\Debug\WebApplication.Resources.resources
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\obj\Debug\WebApplication.csproj.GenerateResource.cache
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\angel\OneDrive\Escritorio\ERP-master\ERP-master\WebApplication\obj\Debug\WebApplication.pdb

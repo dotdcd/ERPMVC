@@ -1,0 +1,923 @@
+﻿@using WebApplication.Extensions
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ERP System</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    @Styles.Render("~/AdminLTE/plugins/font-awesome/css")
+    @Styles.Render("~/AdminLTE/plugins/ionicons/css")
+    @Styles.Render("~/AdminLTE/bootstrap/css")
+    @Styles.Render("~/AdminLTE/dist/css")
+    @Styles.Render("~/AdminLTE/dist/css/skins")
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        <header class="main-header">
+            <a href="/Home/DashboardV1" class="logo" style="background-image: url('https://dotdcd.com.mx/img/logo-dot.png') ; background-size: 50%; background-repeat:no-repeat; background-position:center;
+">
+                <!--
+    <span class="logo-mini"><b>D</b>OT</span>
+    <span class="logo-lg"><b>DOT</b>DCD</span>-->
+            </a>
+            <nav class="navbar navbar-static-top" role="navigation">
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown messages-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-envelope-o"></i>
+                                <span class="label label-success">4</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="header">You have 4 messages</li>
+                                <li>
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="#">
+                                                <div class="pull-left">
+                                                    <img src="~/AdminLTE/dist/img/user.svg" class="img-circle" alt="User Image">
+                                                </div>
+                                                <h4>
+                                                    Support Team
+                                                    <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                                                </h4>
+                                                <p>Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="pull-left">
+                                                    <i class="fal fa-user-alt fa-3x img-circle"></i>
+                                                </div>
+                                                <h4>
+                                                    AdminLTE Design Team
+                                                    <small><i class="fa fa-clock-o"></i> 2 hours</small>
+                                                </h4>
+                                                <p>Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="pull-left">
+                                                    <img src="~/AdminLTE/dist/img/user.svg" class="img-circle" alt="User Image">
+                                                </div>
+                                                <h4>
+                                                    Developers
+                                                    <small><i class="fa fa-clock-o"></i> Today</small>
+                                                </h4>
+                                                <p>Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="pull-left">
+                                                    <img src="~/AdminLTE/dist/img/user.svg" class="img-circle" alt="User Image">
+                                                </div>
+                                                <h4>
+                                                    Sales Department
+                                                    <small><i class="fa fa-clock-o"></i> Yesterday</small>
+                                                </h4>
+                                                <p>Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="pull-left">
+                                                    <img src="~/AdminLTE/dist/img/user.svg" class="img-circle" alt="User Image">
+                                                </div>
+                                                <h4>
+                                                    Reviewers
+                                                    <small><i class="fa fa-clock-o"></i> 2 days</small>
+                                                </h4>
+                                                <p>Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer"><a href="#">See All Messages</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown notifications-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-bell-o"></i>
+                                <span class="label label-warning">10</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="header">You have 10 notifications</li>
+                                <li>
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
+                                                page and may cause design problems
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-users text-red"></i> 5 new members joined
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-user text-red"></i> You changed your username
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer"><a href="#">View all</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown tasks-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-flag-o"></i>
+                                <span class="label label-danger">9</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="header">You have 9 tasks</li>
+                                <li>
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="#">
+                                                <h3>
+                                                    Design some buttons
+                                                    <small class="pull-right">20%</small>
+                                                </h3>
+                                                <div class="progress xs">
+                                                    <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                        <span class="sr-only">20% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <h3>
+                                                    Create a nice theme
+                                                    <small class="pull-right">40%</small>
+                                                </h3>
+                                                <div class="progress xs">
+                                                    <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                        <span class="sr-only">40% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <h3>
+                                                    Some task I need to do
+                                                    <small class="pull-right">60%</small>
+                                                </h3>
+                                                <div class="progress xs">
+                                                    <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                        <span class="sr-only">60% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <h3>
+                                                    Make beautiful transitions
+                                                    <small class="pull-right">80%</small>
+                                                </h3>
+                                                <div class="progress xs">
+                                                    <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                        <span class="sr-only">80% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer">
+                                    <a href="#">View all tasks</a>
+                                </li>
+                            </ul>
+                        </li>
+                        @Html.Partial("_LoginPartial")
+                        <li>
+                            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <aside class="main-sidebar">
+            <section class="sidebar">
+                <div class="user-panel user-" style=" background-image: url(https://dotdcd.com.mx/img/card-backgrounds/cover-4-lg.png); padding-top: 35px; padding-bottom: 35px; opacity: 0.8 !important; background-size: contain; background-repeat: no-repeat; width: 100% !important; height: 146px;">
+                    <div class="pull-left image">
+                        <!--<img src="/AdminLTE/dist/img/user.svg" class="img-circle" alt="User Image">-->
+                    </div>
+                    <div class="pull-left info">
+                        <p>Edgar Quiroga</p>
+                        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                    </div>
+                </div>
+                <form action="#" method="get" class="sidebar-form">
+                    <div class="input-group">
+                        <input type="text" name="q" class="form-control" placeholder="Search...">
+                        <span class="input-group-btn">
+                            <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+                <ul class="sidebar-menu">
+
+
+
+
+
+
+                    <li id="left-sidebar-menu-multilevel" class="treeview">
+                        <a href="#">
+                            <i class="fa fa-pie-chart"></i> <span>Analytics</span>
+                            <i class="fa fa-angle-down pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+
+                            <li>
+                                <a href="/Analytics/Analytics"><i class="fa fa-circle-o"></i> Analytics </a>
+
+                            </li>
+                            <li>
+                                <a href="/Analytics/Empleados"><i class="fa fa-circle-o"></i> Empleados </a>
+
+                            </li>
+                            <li>
+                                <a href="/Analytics/Proyectos"><i class="fa fa-circle-o"></i> Proyectos </a>
+
+                            </li>
+
+                            <li>
+                                <a href="/Analytics/Realestate"><i class="fa fa-circle-o"></i> Real estate </a>
+
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li id="left-sidebar-menu-multilevel" class="treeview">
+                        <a href="#">
+                            <i class="fa fa-desktop"></i> <span>Administracion</span>
+                            <i class="fa fa-angle-down pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Almacen </a>
+                            </li>
+
+                            <li>
+                                <a href="/Admin/Cables"><i class="fa fa-circle-o"></i> Cables </a>
+                            </li>
+
+                            <li>
+                                <a href="/Admin/Clientes"><i class="fa fa-circle-o"></i> Clientes </a>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Compras </a>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> CxC </a>
+                            </li>
+
+                            <li>
+                                <a href="/Admin/Disciplinas"><i class="fa fa-circle-o"></i> Disciplina </a>
+                            </li>
+
+                            <li>
+                                <a href="/Admin/Dispositivos"><i class="fa fa-circle-o"></i> Dispositivos </a>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Facturacion / Timbrado </a>
+
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Facturas / Prefacturas </a>
+                            </li>
+
+                            <li id="left-sidebar-menu-marcas">
+                                <a href="@Url.Action("Marcas", "Admin")"><i class="fa fa-circle-o"></i> Marcas </a>
+                            </li>
+                            <li>
+                                <a href="/Admin/Productos"><i class="fa fa-circle-o"></i> Productos y Servicios </a>
+                            </li>
+
+                            <li>
+                                <a href="/Admin/Proveedores"><i class="fa fa-circle-o"></i> Proveedores </a>
+                            </li>
+
+                            <li id="left-sidebar-menu-marcas">
+                                <a href="/Admin/PPMBuscar"><i class="fa fa-circle-o"></i>Proveedores por Marca</a>
+                            </li>
+
+                            <li>
+                                <a href="/Admin/Sucursales"><i class="fa fa-circle-o"></i> Sucursal </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+
+                    <li id="left-sidebar-menu-multilevel" class="treeview">
+                        <a href="#">
+                            <i class="fa  fa-calculator"></i> <span>Contabilidad</span>
+                            <i class="fa fa-angle-down pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Analytics <i class="fa fa-angle-down pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Capturar Recibos Especiales</a></li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-circle-o"></i> Eficiencia Laboral <i class="fa fa-angle-down pull-right"></i></a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="#"><i class="fa fa-circle-o"></i> Avances por Proyecto y Fecha</a></li>
+                                            <li><a href="#"><i class="fa fa-circle-o"></i> Eficiencia de Empleados</a></li>
+                                            <li><a href="#"><i class="fa fa-circle-o"></i> Proyectos Supervisados por Dia</a></li>
+                                            <li><a href="#"><i class="fa fa-circle-o"></i> Supervisores por Proyecto / Fecha</a></li>
+                                            <li><a href="#"><i class="fa fa-circle-o"></i> Utilidades por Empleados</a></li>
+                                            <li><a href="#"><i class="fa fa-circle-o"></i> Utilidades por Proyecto y Fecha</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Liquidaciones</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Nomina Semanal</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Proceso Quincenal</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Recibos por Empleado</a></li>
+                                </ul>
+                            </li>
+
+
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Bancos <i class="fa fa-angle-down pull-right"></i></a>
+                                <ul class="treeview-menu">
+
+                                    <li>
+                                        <a href="/Contabilidad/Ingresos"><i class="fa fa-circle-o"></i> Ingresos </a>
+
+                                    </li>
+
+                                    <li>
+                                        <a href="/Contabilidad/Egresos"><i class="fa fa-circle-o"></i> Egresos </a>
+
+                                    </li>
+
+                                    <li>
+                                        <a href="/Contabilidad/"><i class="fa fa-circle-o"></i> Entrecuentas </a>
+
+                                    </li>
+
+                                    <li>
+                                        <a href="/Contabilidad/Cuentas"><i class="fa fa-circle-o"></i> Cuentas </a>
+
+                                    </li>
+
+                                    <li>
+                                        <a href="#"><i class="fa fa-circle-o"></i> Caja Chica <i class="fa fa-angle-down pull-right"></i></a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="#"><i class="fa fa-circle-o"></i> Movimientos </a> </li>
+                                            <li><a href="#"><i class="fa fa-circle-o"></i> Corte de Caja </a></li>
+                                            <li><a href="#"><i class="fa fa-circle-o"></i> Historico de Movimiento </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Control de Perdidas <i class="fa fa-angle-down pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Autorizar Requisiciones </a> </li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Reporte de Perdidas </a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> CxP <i class="fa fa-angle-down pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Cuentas por Pagar </a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Ordenes Pendientes </a> </li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Pagar Ordenes sin Afectar Egresos (Eventualmente)</a></li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-circle-o"></i> Notas de Credito <i class="fa fa-angle-down pull-right"></i></a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="#"><i class="fa fa-circle-o"></i> Buscar</a></li>
+                                            <li><a href="#"><i class="fa fa-circle-o"></i> Nuevo</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Empleados <i class="fa fa-angle-down pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="/Contabilidad/Empleados"><i class="fa fa-circle-o"></i> Buscar </a></li>
+                                    <li><a href="/Contabilidad/Contratos"><i class="fa fa-circle-o"></i> Contratos </a></li>
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="/Contabilidad/Inversiones"><i class="fa fa-circle-o"></i> Inversiones</a>
+                            </li>
+
+                            <li>
+                                <a href="/Contabilidad/Jornadas"><i class="fa fa-circle-o"></i> Jornadas </a>
+
+                            </li>
+
+                            <li>
+                                <a href="/Contabilidad/Multiempresas"><i class="fa fa-circle-o"></i> Multiempresas</a>
+
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+
+
+                    <li id="left-sidebar-menu-multilevel" class="treeview">
+                        <a href="#">
+                            <i class="fa fa-home"></i> <span>Inicio</span>
+                            <i class="fa fa-angle-down pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Respaldo </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Nuevo </a> </li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Buscar </a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="/Inicio/Usuarios"><i class="fa fa-circle-o"></i> Usuarios </a>
+
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li id="left-sidebar-menu-multilevel" class="treeview">
+                        <a href="">
+                            <i class="fa fa-th-large"></i> <span>Operacion</span>
+                            <i class="fa fa-angle-down pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Autorizar <i class="fa fa-angle-down pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Proyectos / Cambios </a> </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Folios <i class="fa fa-angle-down pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Nuevo </a> </li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Buscar </a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Proyectos <i class="fa fa-angle-down pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Asignar Empleados </a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Buscar </a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Control de Cambios </a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Estimacion </a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Nuevo </a> <i class="fa fa-angle-down pull-right"></i></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Requisiciones </a> <i class="fa fa-angle-down pull-right"></i></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Reporte de Cotizacion </a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i> Subcontratos <i class="fa fa-angle-down pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Anticipos </a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Buscar </a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Estimaciones </a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Nuevo </a> </li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Ordenes de Compra </a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i> Pagos </a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+
+
+
+
+                    <li id="left-sidebar-menu-multilevel" class="treeview">
+                        <a href="#">
+                            <i class="fa fa-file-text-o"></i> <span>Reportes</span>
+                            <i class="fa fa-angle-down pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Asistencia </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Comisiones </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Compra de Activos </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i>proyecto </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Detalle de Costos por Proyecto </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Estados de Cuenta </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i></a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Ingresos y Egresos por Proyecto </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> KPI´s </a></li>  c
+                            <li><a href="#"><i class="fa fa-circle-o"></i> KPI´s II </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i></a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Nomina por Proveedor y Disciplina por Empleado </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i>posicion Financiera </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Presupuestos </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Reporte de Cotizacion </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Rendimiento </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Situacion Actual de Cotizaciones </a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Situacion de Proyectos </a></li>
+                        </ul>
+                    </li>
+
+
+
+
+
+                    <!--
+        <li class="header">MAIN NAVIGATION</li>
+        <li id="left-sidebar-menu-dashboard" class="treeview">
+            <a href="#">
+                <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-down pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li id="left-sidebar-menu-dashboard-dashboardV1"><a href="@Url.Action("DashboardV1", "Home")"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+                <li id="left-sidebar-menu-dashboard-dashboardV2"><a href="@Url.Action("DashboardV2", "Home")"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+                @{
+                    if (User.IsInRole("Admin"))
+                    {
+                    <li id="left-sidebar-menu-dashboard-mylist"><a href="@Url.Action("MyList", "Home")"><i class="fa fa-circle-o"></i> Consulta Dummy</a></li>
+                    }
+                }
+                <li id="left-sidebar-menu-dashboard-marcas"><a href="@Url.Action("Marcas", "Admin")"><i class="fa fa-circle-o"></i> Marcas</a></li>
+
+            </ul>
+        </li>
+        <li id="left-sidebar-menu-widgets">
+            <a href="@Url.Action("Index", "Widgets")">
+                <i class="fa fa-th"></i> <span>Widgets</span>
+                <small class="label pull-right bg-green">new</small>
+            </a>
+        </li>
+        <li id="left-sidebar-menu-charts" class="treeview">
+            <a href="#">
+                <i class="fa fa-pie-chart"></i>
+                <span>Charts</span>
+                <i class="fa fa-angle-down pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li id="left-sidebar-menu-charts-chartjs"><a href="@Url.Action("ChartJs", "Charts")"><i class="fa fa-circle-o"></i> ChartJS</a></li>
+                <li id="left-sidebar-menu-charts-morris"><a href="@Url.Action("Morris", "Charts")"><i class="fa fa-circle-o"></i> Morris</a></li>
+                <li id="left-sidebar-menu-charts-flot"><a href="@Url.Action("Flot", "Charts")"><i class="fa fa-circle-o"></i> Flot</a></li>
+                <li id="left-sidebar-menu-charts-inline"><a href="@Url.Action("Inline", "Charts")"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+            </ul>
+        </li>
+        <li id="left-sidebar-menu-elements" class="treeview">
+            <a href="#">
+                <i class="fa fa-laptop"></i>
+                <span>UI Elements</span>
+                <i class="fa fa-angle-down pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li id="left-sidebar-menu-elements-general"><a href="@Url.Action("General", "Elements")"><i class="fa fa-circle-o"></i> General</a></li>
+                <li id="left-sidebar-menu-elements-icons"><a href="@Url.Action("Icons", "Elements")"><i class="fa fa-circle-o"></i> Icons</a></li>
+                <li id="left-sidebar-menu-elements-buttons"><a href="@Url.Action("Buttons", "Elements")"><i class="fa fa-circle-o"></i> Buttons</a></li>
+                <li id="left-sidebar-menu-elements-sliders"><a href="@Url.Action("Sliders", "Elements")"><i class="fa fa-circle-o"></i> Sliders</a></li>
+                <li id="left-sidebar-menu-elements-timeline"><a href="@Url.Action("Timeline", "Elements")"><i class="fa fa-circle-o"></i> Timeline</a></li>
+                <li id="left-sidebar-menu-elements-modals"><a href="@Url.Action("Modals", "Elements")"><i class="fa fa-circle-o"></i> Modals</a></li>
+            </ul>
+        </li>
+        <li id="left-sidebar-menu-forms" class="treeview">
+            <a href="#">
+                <i class="fa fa-edit"></i> <span>Forms</span>
+                <i class="fa fa-angle-down pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li id="left-sidebar-menu-forms-general"><a href="@Url.Action("General", "Forms")"><i class="fa fa-circle-o"></i> General Elements</a></li>
+                <li id="left-sidebar-menu-forms-advanced"><a href="@Url.Action("Advanced", "Forms")"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
+                <li id="left-sidebar-menu-forms-editors"><a href="@Url.Action("Editors", "Forms")"><i class="fa fa-circle-o"></i> Editors</a></li>
+            </ul>
+        </li>
+        <li id="left-sidebar-menu-tables" class="treeview">
+            <a href="#">
+                <i class="fa fa-table"></i> <span>Tables</span>
+                <i class="fa fa-angle-down pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li id="left-sidebar-menu-tables-simple"><a href="@Url.Action("Simple", "Tables")"><i class="fa fa-circle-o"></i> Simple tables</a></li>
+                <li id="left-sidebar-menu-tables-data"><a href="@Url.Action("Data", "Tables")"><i class="fa fa-circle-o"></i> Data tables</a></li>
+            </ul>
+        </li>
+        <li id="left-sidebar-menu-calendar">
+            <a href="@Url.Action("Index", "Calendar")">
+                <i class="fa fa-calendar"></i>
+                <span>Calendar</span>
+                <small class="label pull-right bg-red">3</small>
+            </a>
+        </li>
+        <li id="left-sidebar-menu-mailbox" class="treeview">
+            <a href="#">
+                <i class="fa fa-envelope"></i> <span>Mailbox</span>
+                <i class="fa fa-angle-down pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li id="left-sidebar-menu-mailbox-inbox"><a href="@Url.Action("Inbox", "Mailbox")">Inbox <span class="label label-primary pull-right">13</span></a></li>
+                <li id="left-sidebar-menu-mailbox-compose"><a href="@Url.Action("Compose", "Mailbox")">Compose</a></li>
+                <li id="left-sidebar-menu-mailbox-read"><a href="@Url.Action("Read", "Mailbox")">Read</a></li>
+            </ul>
+        </li>
+        <li id="left-sidebar-menu-examples" class="treeview">
+            <a href="#">
+                <i class="fa fa-folder"></i> <span>Examples</span>
+                <i class="fa fa-angle-down pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li id="left-sidebar-menu-examples-invoice"><a href="@Url.Action("Invoice", "Examples")"><i class="fa fa-circle-o"></i> Invoice</a></li>
+                <li id="left-sidebar-menu-examples-profileex"><a href="@Url.Action("ProfileEx", "Examples")"><i class="fa fa-circle-o"></i> Profile</a></li>
+                <li id="left-sidebar-menu-examples-login"><a href="@Url.Action("Login", "Examples")"><i class="fa fa-circle-o"></i> Login</a></li>
+                <li id="left-sidebar-menu-examples-register"><a href="@Url.Action("Register", "Examples")"><i class="fa fa-circle-o"></i> Register</a></li>
+                <li id="left-sidebar-menu-examples-lockscreen"><a href="@Url.Action("Lockscreen", "Examples")"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
+                <li id="left-sidebar-menu-examples-p404"><a href="@Url.Action("P404", "Examples")"><i class="fa fa-circle-o"></i> 404 Error</a></li>
+                <li id="left-sidebar-menu-examples-p500"><a href="@Url.Action("P500", "Examples")"><i class="fa fa-circle-o"></i> 500 Error</a></li>
+                <li id="left-sidebar-menu-examples-blank"><a href="@Url.Action("Blank", "Examples")"><i class="fa fa-circle-o"></i> Blank Page</a></li>
+                <li id="left-sidebar-menu-examples-pace"><a href="@Url.Action("Pace", "Examples")"><i class="fa fa-circle-o"></i> Pace Page</a></li>
+            </ul>
+        </li>
+        <li id="left-sidebar-menu-multilevel" class="treeview">
+            <a href="#">
+                <i class="fa fa-share"></i> <span>Multilevel</span>
+                <i class="fa fa-angle-down pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+                <li>
+                    <a href="#"><i class="fa fa-circle-o"></i> Level One <i class="fa fa-angle-down pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+                        <li>
+                            <a href="#"><i class="fa fa-circle-o"></i> Level Two <i class="fa fa-angle-down pull-right"></i></a>
+                            <ul class="treeview-menu">
+                                <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                                <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+            </ul>
+        </li>
+        <li id="left-sidebar-menu-documentation">
+            <a href="@Url.Action("Index", "Documentation")">
+                <i class="fa fa-book"></i>
+                <span>Layout Documentation</span>
+            </a>
+        </li>
+        <li class="header">LABELS</li>
+        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
+        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
+        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+    </ul>-->
+</section>
+        </aside>
+        <div class="content-wrapper">
+            <section class="content-header">
+                <h1>
+                    @ViewBag.Title
+                    <small>@ViewBag.SubTitle</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="#"><i class="fa fa-dashboard"></i>@ViewBag.SubTitle</a></li>
+                    <li class="active">@ViewBag.Title</li>
+                </ol>
+            </section>
+            <section class="content">
+                @RenderBody()
+            </section>
+        </div>
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Version</b> 1.0.0
+            </div>
+            <strong>ERP System | &copy; 2023 <a href="http://dotdcd.com">DOTDCD</a>.</strong> All rights
+            reserved.
+        </footer>
+        <aside class="control-sidebar control-sidebar-dark">
+            <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+                <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
+                <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane" id="control-sidebar-home-tab">
+                    <h3 class="control-sidebar-heading">Recent Activity</h3>
+                    <ul class="control-sidebar-menu">
+                        <li>
+                            <a href="javascript::;">
+                                <i class="menu-icon fa fa-birthday-cake bg-red"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
+                                    <p>Will be 23 on April 24th</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript::;">
+                                <i class="menu-icon fa fa-user bg-yellow"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
+                                    <p>New phone +1(800)555-1234</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript::;">
+                                <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
+                                    <p>nora@example.com</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript::;">
+                                <i class="menu-icon fa fa-file-code-o bg-green"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
+                                    <p>Execution time 5 seconds</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <h3 class="control-sidebar-heading">Tasks Progress</h3>
+                    <ul class="control-sidebar-menu">
+                        <li>
+                            <a href="javascript::;">
+                                <h4 class="control-sidebar-subheading">
+                                    Custom Template Design
+                                    <span class="label label-danger pull-right">70%</span>
+                                </h4>
+                                <div class="progress progress-xxs">
+                                    <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript::;">
+                                <h4 class="control-sidebar-subheading">
+                                    Update Resume
+                                    <span class="label label-success pull-right">95%</span>
+                                </h4>
+                                <div class="progress progress-xxs">
+                                    <div class="progress-bar progress-bar-success" style="width: 95%"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript::;">
+                                <h4 class="control-sidebar-subheading">
+                                    Laravel Integration
+                                    <span class="label label-warning pull-right">50%</span>
+                                </h4>
+                                <div class="progress progress-xxs">
+                                    <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript::;">
+                                <h4 class="control-sidebar-subheading">
+                                    Back End Framework
+                                    <span class="label label-primary pull-right">68%</span>
+                                </h4>
+                                <div class="progress progress-xxs">
+                                    <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
+                <div class="tab-pane" id="control-sidebar-settings-tab">
+                    <form method="post">
+                        <h3 class="control-sidebar-heading">General Settings</h3>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Report panel usage
+                                <input type="checkbox" class="pull-right" checked>
+                            </label>
+                            <p>
+                                Some information about this general settings option
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Allow mail redirect
+                                <input type="checkbox" class="pull-right" checked>
+                            </label>
+                            <p>
+                                Other sets of options are available
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Expose author name in posts
+                                <input type="checkbox" class="pull-right" checked>
+                            </label>
+                            <p>
+                                Allow the user to show his name in blog posts
+                            </p>
+                        </div>
+                        <h3 class="control-sidebar-heading">Chat Settings</h3>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Show me as online
+                                <input type="checkbox" class="pull-right" checked>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Turn off notifications
+                                <input type="checkbox" class="pull-right">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Delete chat history
+                                <a href="javascript::;" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </aside>
+        <div class="control-sidebar-bg"></div>
+    </div>
+
+    @Scripts.Render("~/AdminLTE/plugins/jquery/js")
+    @RenderSection("menu", required: false)
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/AdminLTE/plugins/slimscroll/js")
+    @Scripts.Render("~/AdminLTE/plugins/fastclick/js")
+    @Scripts.Render("~/Scripts/Shared/_Layout")
+    @Scripts.Render("~/AdminLTE/dist/js")
+    @RenderSection("scripts", required: false)
+
+    <script type="text/javascript" >
+
+
+        var searchInput = document.querySelector('.search-input');
+        var sidebarItems = document.querySelectorAll('.sidebar-menu li');
+
+        searchInput.addEventListener('input', function () {
+            var query = this.value.toLowerCase();
+
+            sidebarItems.forEach(function (item) {
+                var text = item.textContent.toLowerCase();
+
+                if (text.includes(query)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+
+
+    </script>
+</body>
+</html>

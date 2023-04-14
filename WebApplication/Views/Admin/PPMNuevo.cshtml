@@ -1,0 +1,70 @@
+﻿@model App.Model.PPMModel
+
+@{
+    ViewBag.Title = "Proveedor por Marca";
+    ViewBag.SubTitle = "";
+}
+
+@section Menu {
+    @Scripts.Render("~/Scripts/Forms/General/menu")
+}
+
+@Styles.Render("~/AdminLTE/bootstrap/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/select2/css")
+@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/css/skins")
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="box box-primary">
+
+            @using (Html.BeginForm("PPM", "Admin", FormMethod.Post, new { role = "form", enctype = "multipart/form-data" }))
+            {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="box-header with-border" style="margin-top:10px;">
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Nombre de la Marca:</label>
+                        @Html.DropDownListFor(m => m.proveedoresxmarca_marca_id, marcas, new { @class = "form-control", @id = "proveedoresxmarca_marca_id", @name = "proveedoresxmarca_marca_id", @style = "width:400px;" })
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="form-group has-feedback">
+                        <label class="text-left">Nombre del Proveedor:</label>
+                        @Html.DropDownListFor(m => m.proveedoresxmarca_proveedor_id, proveedores, new { @class = "form-control", @id = "proveedoresxmarca_proveedor_id", @name = "proveedoresxmarca_proveedor_id", @style = "width:400px;" })
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="box-footer" style="text-align:right !important;">
+                <button type="submit" id="btnSubmit" class="btn btn-primary right">Grabar</button>
+            </div>
+            <div style="display:flex; flex-direction: row; justify-content: center; align-items: center;height:5px;">
+
+            </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/AdminLTE/plugins/jquery-validate/js")
+    @Scripts.Render("~/AdminLTE/plugins/select2/js")
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/Scripts/Admin/Marca")
+}
+
+
+
+
